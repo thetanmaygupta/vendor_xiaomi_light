@@ -9,17 +9,13 @@
         <!-- for aurisys_scene playback normal -->
         <aurisys_scenario aurisys_scenario="AURISYS_SCENARIO_PLAYBACK_NORMAL">
             <downlink_library_name_list digital_gain_lib_name="">
-                <!--L19 code for HQ-159296 by dailei at 2021.11.19 misound start-->
                 <library name="misound"/>
-                <!--L19 code for HQ-159296 by dailei at 2021.11.19 misound end-->
             </downlink_library_name_list>
         </aurisys_scenario>
         <!-- for aurisys_scene playback fast -->
         <aurisys_scenario aurisys_scenario="AURISYS_SCENARIO_PLAYBACK_LOW_LATENCY">
             <downlink_library_name_list digital_gain_lib_name="">
-                <!--L19 code for HQ-160460 by dailei at 2021.10.14 start-->
                 <library name="misound"/>
-                <!--L19 code for HQ-160460 by dailei at 2021.10.14 start-->
             </downlink_library_name_list>
         </aurisys_scenario>
         <!-- for aurisys_scene low latency record -->
@@ -68,9 +64,7 @@
         <aurisys_scenario aurisys_scenario="AURISYS_SCENARIO_PLAYBACK_SMARTPA">
             <downlink_library_name_list digital_gain_lib_name="">
                 <library name="aurisys_demo"/>
-                <!--L19 code for HQ-173550 by zhangpeng at 2021.1.6 start-->
                 <library name="sia81xx_sixth"/>
-                <!--L19 code for HQ-173550 by zhangpeng at 2021.1.6 end-->
             </downlink_library_name_list>
         </aurisys_scenario>
         <!-- for aurisys_scene HDR record -->
@@ -134,7 +128,6 @@
                 </component>
             </components>
         </library>
-        <!--L19 code for HQ-159296 by dailei at 2021.11.19 add misound start-->
         <library name="misound"
                  lib_path="/vendor/lib/libmisound.so"
                  lib64_path="/vendor/lib64/libmisound.so"
@@ -178,7 +171,6 @@
                 </component>
             </components>
         </library>
-        <!--L19 code for HQ-159296 by dailei at 2021.11.19 add misound end-->
         <!--
          * =====================================================================
          *   MediaTek IIR
@@ -415,7 +407,6 @@
             </components>
         </library>
         <!--
-         L19 code for HQ-173550 by zhangpeng at 2022.1.13 start
          * =====================================================================
          *   sia81xx sixth Library
          * =====================================================================
@@ -446,7 +437,6 @@
                 </component>
             </components>
         </library>
-        <!--L19 code for HQ-173550 by zhangpeng at 2022.1.13 end-->
         <!--
          * =====================================================================
          *   DEMO

@@ -1,0 +1,25 @@
+{
+    "version": "1.0",
+    "product": "light",
+    "support": {
+            "lmkd_cammode_enable": false,
+            "adj_swap_support": true
+        },
+    "configs_lowmem": [
+               {
+
+            "name": "white_list",
+            "config": [
+                "com.android.camera",
+                "com.miui.gallery",
+                "com.tencent.mm",
+                "com.miui.home",
+                "com.tencent.mm:push",
+                "com.tencent.mobileqq:MSF",
+                "com.ss.android.lark.kami:wschannel",
+                "com.phonetest.application:CameraMemoryWatcher",
+                "com.miui.screenrecorder"
+            ]
+        }
+    ]
+}

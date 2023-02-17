@@ -9,9 +9,7 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service.mediatek
     capabilities BLOCK_SUSPEND SYS_NICE
     ioprio rt 4
     task_profiles ProcessCapacityHigh HighPerformance
-    #L19 code for HQ-159296 by dailei at 2021.11.19 misound start
     # Audio-add BEGIN
     socket audio_hw_socket seqpacket 0666 system system
     # END
-    #L19 code for HQ-159296 by dailei at 2021.11.19 misound end
     onrestart restart audioserver

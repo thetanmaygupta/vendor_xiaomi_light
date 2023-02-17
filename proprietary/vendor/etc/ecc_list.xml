@@ -355,6 +355,11 @@
     <EccEntry Ecc="133" Category="0" Condition="1" Plmn="730 FFF"/>
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="730 FFF"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="730 FFF"/>
+    <EccEntry Ecc="131" Category="2" Condition="3" Plmn="730 01"/>
+    <EccEntry Ecc="132" Category="4" Condition="3" Plmn="730 01"/>
+    <EccEntry Ecc="133" Category="1" Condition="3" Plmn="730 01"/>
+    <EccEntry Ecc="136" Category="16" Condition="3" Plmn="730 01"/>
+    <EccEntry Ecc="137" Category="8" Condition="3" Plmn="730 01"/>
 
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="732 FFF"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="732 FFF"/>
@@ -372,15 +377,49 @@
 
     <EccEntry Ecc="999" Category="0" Condition="2" Plmn="852 FFF"/>
 
-    <EccEntry Ecc="110" Category="0" Condition="2" Plmn="510 FFF"/>
-    <EccEntry Ecc="115" Category="0" Condition="2" Plmn="510 FFF"/>
-    <EccEntry Ecc="118" Category="0" Condition="1" Plmn="510 FFF"/>
-    <EccEntry Ecc="119" Category="0" Condition="2" Plmn="510 FFF"/>
-    <EccEntry Ecc="129" Category="0" Condition="2" Plmn="510 FFF"/>
-    <EccEntry Ecc="113" Category="0" Condition="1" Plmn="510 FFF"/>
-    <EccEntry Ecc="110" Category="1" Condition="1" Plmn="510 01"/>
-    <EccEntry Ecc="110" Category="0" Condition="1" Plmn="510 11"/>
-    <EccEntry Ecc="129" Category="0" Condition="1" Plmn="510 01"/>
+    <EccEntry Ecc="110" Category="0" Condition="2" Plmn = "510 09" />
+    <EccEntry Ecc="113" Category="4" Condition="1" Plmn = "510 09" />
+    <EccEntry Ecc="118" Category="2" Condition="1" Plmn = "510 09" />
+    <EccEntry Ecc="115" Category="8" Condition="1" Plmn = "510 09" />
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn = "510 09" />
+    <EccEntry Ecc="129" Category="0" Condition="2" Plmn = "510 09" />
+    <EccEntry Ecc="110" Category="0" Condition="2" Plmn = "510 28" />
+    <EccEntry Ecc="113" Category="4" Condition="1" Plmn = "510 28" />
+    <EccEntry Ecc="118" Category="2" Condition="1" Plmn = "510 28" />
+    <EccEntry Ecc="115" Category="8" Condition="1" Plmn = "510 28" />
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn = "510 28" />
+    <EccEntry Ecc="129" Category="0" Condition="2" Plmn = "510 28" />
+
+    <EccEntry Ecc="113" Category="4" Condition="1" Plmn = "510 10" />
+    <EccEntry Ecc="118" Category="2" Condition="1" Plmn = "510 10" />
+    <EccEntry Ecc="110" Category="0" Condition="2" Plmn = "510 10" />
+    <EccEntry Ecc="115" Category="0" Condition="2" Plmn = "510 10" />
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn = "510 10" />
+    <EccEntry Ecc="129" Category="2" Condition="2" Plmn = "510 10" />
+
+    <EccEntry Ecc="115" Category="0" Condition="2" Plmn = "510 01" />
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn = "510 01" />
+    <EccEntry Ecc="129" Category="0" Condition="1" Plmn = "510 01" />
+    <EccEntry Ecc="123" Category="2" Condition="2" Plmn = "510 01" />
+    <EccEntry Ecc="110" Category="1" Condition="1" Plmn = "510 01" />
+    <EccEntry Ecc="113" Category="0" Condition="1" Plmn = "510 01" />
+    <EccEntry Ecc="118" Category="0" Condition="1" Plmn = "510 01" />
+
+    <EccEntry Ecc="110" Category="0" Condition="1" Plmn = "510 11" />
+    <EccEntry Ecc="113" Category="0" Condition="1" Plmn = "510 11" />
+    <EccEntry Ecc="118" Category="0" Condition="1" Plmn = "510 11" />
+    <EccEntry Ecc="115" Category="0" Condition="1" Plmn = "510 11" />
+    <EccEntry Ecc="117" Category="0" Condition="2" Plmn = "510 11" />
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn = "510 11" />
+    <EccEntry Ecc="129" Category="0" Condition="2" Plmn = "510 11" />
+
+    <EccEntry Ecc="110" Category="0" Condition="1" Plmn = "510 89" />
+    <EccEntry Ecc="112" Category="0" Condition="1" Plmn = "510 89" />
+    <EccEntry Ecc="113" Category="0" Condition="1" Plmn = "510 89" />
+    <EccEntry Ecc="115" Category="0" Condition="1" Plmn = "510 89" />
+    <EccEntry Ecc="118" Category="0" Condition="1" Plmn = "510 89" />
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn = "510 89" />
+    <EccEntry Ecc="129" Category="0" Condition="2" Plmn = "510 89" />
 
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn="502 FFF"/>
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="502 FFF"/>
@@ -394,19 +433,17 @@
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="302 FFF"/>
     <EccEntry Ecc="999" Category="0" Condition="0" Plmn="302 FFF"/>
 
-    <EccEntry Ecc="119" Category="0" Condition="2" Plmn="704 FFF"/>
-    <EccEntry Ecc="110" Category="0" Condition="2" Plmn="704 FFF"/>
-    <EccEntry Ecc="122" Category="0" Condition="2" Plmn="704 FFF"/>
-    <EccEntry Ecc="120" Category="0" Condition="2" Plmn="704 FFF"/>
-    <EccEntry Ecc="123" Category="0" Condition="2" Plmn="704 FFF"/>
-    <EccEntry Ecc="125" Category="0" Condition="2" Plmn="704 FFF"/>
     <EccEntry Ecc="128" Category="0" Condition="2" Plmn="704 FFF"/>
 
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="334 FFF"/>
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="334 FFF"/>
 
+    <!-- Peru operator-->
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="716 FFF"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="716 FFF"/>
+    <EccEntry Ecc="105" Category="0" Condition="1" Plmn="716 06"/>
+    <EccEntry Ecc="105" Category="0" Condition="1" Plmn="716 10"/>
+    <EccEntry Ecc="000" Category="0" Condition="0" Plmn="716 17"/>
 
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn="234 FFF"/>
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="234 FFF"/>
@@ -533,9 +570,9 @@
     <EccEntry Ecc="122" Category="0" Condition="1" Plmn="602 FFF"/>
     <EccEntry Ecc="123" Category="4" Condition="2" Plmn="602 FFF"/>
 
-    <EccEntry Ecc="100" Category="0" Condition="0" Plmn="202 FFF"/>
-    <EccEntry Ecc="166" Category="0" Condition="0" Plmn="202 FFF"/>
-    <EccEntry Ecc="199" Category="0" Condition="0" Plmn="202 FFF"/>
+    <EccEntry Ecc="100" Category="1" Condition="2" Plmn="202 FFF"/>
+    <EccEntry Ecc="166" Category="2" Condition="2" Plmn="202 FFF"/>
+    <EccEntry Ecc="199" Category="4" Condition="2" Plmn="202 FFF"/>
 
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="268 01"/>
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="204 04"/>
@@ -675,6 +712,16 @@
     <EccEntry Ecc="102" Category="0" Condition="2" Plmn="255 03"/>
     <EccEntry Ecc="103" Category="0" Condition="2" Plmn="255 03"/>
 
+    <!-- Add for CYTA operators -->
+    <EccEntry Ecc="199" Category="0" Condition="1" Plmn="280 01"/>
+
+    <!-- Add for Macao operator -->
+    <EccEntry Ecc="999" Category="0" Condition="1" Plmn="455 FFF"/>
+    <EccEntry Ecc="993" Category="0" Condition="1" Plmn="455 FFF"/>
+    <EccEntry Ecc="110" Category="0" Condition="1" Plmn="455 FFF"/>
+    <EccEntry Ecc="120" Category="0" Condition="1" Plmn="455 FFF"/>
+    <EccEntry Ecc="119" Category="0" Condition="1" Plmn="455 FFF"/>
+
     <!-- Add for Cambodia operator -->
     <EccEntry Ecc="117" Category="0" Condition="2" Plmn = "456 FFF" />
     <EccEntry Ecc="118" Category="0" Condition="2" Plmn = "456 FFF" />
@@ -721,5 +768,17 @@
     <EccEntry Ecc="767" Category="0" Condition="2" Plmn="621 50"/>
     <EccEntry Ecc="122" Category="0" Condition="2" Plmn="621 60"/>
     <EccEntry Ecc="767" Category="0" Condition="2" Plmn="621 60"/>
+
+    <!-- Add for Pakistan operator -->
+    <EccEntry Ecc="112" Category="0" Condition="1" Plmn="238 FFF"/>
+    <EccEntry Ecc="113" Category="2" Condition="1" Plmn="238 FFF"/>
+    <!-- Add for QA operator -->
+    <EccEntry Ecc="999" Category="0" Condition="1" Plmn="427 FFF"/>
+    <EccEntry Ecc="135" Category="0" Condition="1" Plmn="427 FFF"/>
+
+    <!--add for Moldova-->
+    <EccEntry Ecc="901" Category="0" Condition="2" Plmn = "259 01"/>
+    <EccEntry Ecc="902" Category="0" Condition="2" Plmn = "259 01"/>
+    <EccEntry Ecc="903" Category="0" Condition="2" Plmn = "259 01"/>
 
 </EccTable>

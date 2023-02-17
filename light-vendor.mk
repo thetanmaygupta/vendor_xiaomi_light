@@ -7,39 +7,43 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
-    vendor/xiaomi/light/proprietary/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-nci.conf \
     vendor/xiaomi/light/proprietary/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/mediacodec.policy \
     vendor/xiaomi/light/proprietary/lib/libdatasource.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdatasource.so \
     vendor/xiaomi/light/proprietary/lib/libdmabufheap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdmabufheap.so \
     vendor/xiaomi/light/proprietary/lib/libged_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libged_sys.so \
     vendor/xiaomi/light/proprietary/lib/libgralloc_extra_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libgralloc_extra_sys.so \
     vendor/xiaomi/light/proprietary/lib/libmedia_codeclist.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmedia_codeclist.so \
+    vendor/xiaomi/light/proprietary/lib/libsf_cpupolicy.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsf_cpupolicy.so \
     vendor/xiaomi/light/proprietary/lib/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_bufferpool@2.0.1.so \
     vendor/xiaomi/light/proprietary/lib/libstagefright_codecbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_codecbase.so \
     vendor/xiaomi/light/proprietary/lib/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_framecapture_utils.so \
+    vendor/xiaomi/light/proprietary/lib/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_surface_utils.so \
     vendor/xiaomi/light/proprietary/lib/libstagefright_wfd_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_wfd_mtk.so \
+    vendor/xiaomi/light/proprietary/lib/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.dolby.hardware.dms@2.0.so \
     vendor/xiaomi/light/proprietary/lib/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.displayfeature@1.0.so \
     vendor/xiaomi/light/proprietary/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
     vendor/xiaomi/light/proprietary/lib/vendor.xiaomi.hardware.micharge@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.micharge@1.0.so \
-    vendor/xiaomi/light/proprietary/lib/vendor.xiaomi.hardware.touchfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.touchfeature@1.0.so \
     vendor/xiaomi/light/proprietary/lib64/libdatasource.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdatasource.so \
     vendor/xiaomi/light/proprietary/lib64/libdmabufheap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdmabufheap.so \
     vendor/xiaomi/light/proprietary/lib64/libged_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libged_sys.so \
     vendor/xiaomi/light/proprietary/lib64/libgralloc_extra_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgralloc_extra_sys.so \
     vendor/xiaomi/light/proprietary/lib64/libmedia_codeclist.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmedia_codeclist.so \
+    vendor/xiaomi/light/proprietary/lib64/libsf_cpupolicy.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsf_cpupolicy.so \
     vendor/xiaomi/light/proprietary/lib64/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_bufferpool@2.0.1.so \
     vendor/xiaomi/light/proprietary/lib64/libstagefright_codecbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_codecbase.so \
     vendor/xiaomi/light/proprietary/lib64/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_framecapture_utils.so \
+    vendor/xiaomi/light/proprietary/lib64/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_surface_utils.so \
     vendor/xiaomi/light/proprietary/lib64/libstagefright_wfd_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_wfd_mtk.so \
+    vendor/xiaomi/light/proprietary/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.dolby.hardware.dms@2.0.so \
     vendor/xiaomi/light/proprietary/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
     vendor/xiaomi/light/proprietary/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
     vendor/xiaomi/light/proprietary/lib64/vendor.xiaomi.hardware.micharge@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.micharge@1.0.so \
-    vendor/xiaomi/light/proprietary/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so \
     vendor/xiaomi/light/proprietary/odm/etc/build_light.prop:$(TARGET_COPY_OUT_ODM)/etc/build_light.prop \
     vendor/xiaomi/light/proprietary/odm/etc/build_lightX.prop:$(TARGET_COPY_OUT_ODM)/etc/build_lightX.prop \
     vendor/xiaomi/light/proprietary/odm/etc/build_light_p.prop:$(TARGET_COPY_OUT_ODM)/etc/build_light_p.prop \
     vendor/xiaomi/light/proprietary/odm/etc/build_thunder.prop:$(TARGET_COPY_OUT_ODM)/etc/build_thunder.prop \
     vendor/xiaomi/light/proprietary/odm/etc/build_thunder_p.prop:$(TARGET_COPY_OUT_ODM)/etc/build_thunder_p.prop \
+    vendor/xiaomi/light/proprietary/odm/etc/camera/camerabooster.json:$(TARGET_COPY_OUT_ODM)/etc/camera/camerabooster.json \
     vendor/xiaomi/light/proprietary/odm/etc/thunder/android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/thunder/android.hardware.nfc@1.2-service.rc \
     vendor/xiaomi/light/proprietary/odm/etc/thunder/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_ODM)/etc/thunder/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/xiaomi/light/proprietary/odm/etc/thunder_p/android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/thunder_p/android.hardware.nfc@1.2-service.rc \
@@ -68,6 +72,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkradioex@3.0.so \
     vendor/xiaomi/light/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so \
     vendor/xiaomi/light/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
+    vendor/xiaomi/light/proprietary/vendor/bin/MI_IC:$(TARGET_COPY_OUT_VENDOR)/bin/MI_IC \
+    vendor/xiaomi/light/proprietary/vendor/bin/MI_RIC:$(TARGET_COPY_OUT_VENDOR)/bin/MI_RIC \
     vendor/xiaomi/light/proprietary/vendor/bin/SoterProvisioningTool:$(TARGET_COPY_OUT_VENDOR)/bin/SoterProvisioningTool \
     vendor/xiaomi/light/proprietary/vendor/bin/[:$(TARGET_COPY_OUT_VENDOR)/bin/[ \
     vendor/xiaomi/light/proprietary/vendor/bin/aee_aedv:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv \
@@ -114,7 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/bin/hw/android.hardware.cas@1.2-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.2-service-lazy \
     vendor/xiaomi/light/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.clearkey \
     vendor/xiaomi/light/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.widevine \
-    vendor/xiaomi/light/proprietary/vendor/bin/hw/android.hardware.dumpstate@1.1-service.xiaomi:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.dumpstate@1.1-service.xiaomi \
     vendor/xiaomi/light/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service \
     vendor/xiaomi/light/proprietary/vendor/bin/hw/android.hardware.gnss-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss-service.mediatek \
     vendor/xiaomi/light/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek \
@@ -152,6 +157,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@1.0-service \
     vendor/xiaomi/light/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@2.0-service \
     vendor/xiaomi/light/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@3.0-service \
+    vendor/xiaomi/light/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@4.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@4.0-service \
     vendor/xiaomi/light/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service \
     vendor/xiaomi/light/proprietary/vendor/bin/hw/vtservice_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_hidl \
     vendor/xiaomi/light/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
@@ -163,6 +169,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/bin/initprop_bin:$(TARGET_COPY_OUT_VENDOR)/bin/initprop_bin \
     vendor/xiaomi/light/proprietary/vendor/bin/install:$(TARGET_COPY_OUT_VENDOR)/bin/install \
     vendor/xiaomi/light/proprietary/vendor/bin/ipsec_mon:$(TARGET_COPY_OUT_VENDOR)/bin/ipsec_mon \
+    vendor/xiaomi/light/proprietary/vendor/bin/iwlist:$(TARGET_COPY_OUT_VENDOR)/bin/iwlist \
+    vendor/xiaomi/light/proprietary/vendor/bin/iwpriv:$(TARGET_COPY_OUT_VENDOR)/bin/iwpriv \
     vendor/xiaomi/light/proprietary/vendor/bin/jpegtool:$(TARGET_COPY_OUT_VENDOR)/bin/jpegtool \
     vendor/xiaomi/light/proprietary/vendor/bin/kmsetkey:$(TARGET_COPY_OUT_VENDOR)/bin/kmsetkey \
     vendor/xiaomi/light/proprietary/vendor/bin/lbs_hidl_service:$(TARGET_COPY_OUT_VENDOR)/bin/lbs_hidl_service \
@@ -212,6 +220,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/bin/unlink:$(TARGET_COPY_OUT_VENDOR)/bin/unlink \
     vendor/xiaomi/light/proprietary/vendor/bin/unshare:$(TARGET_COPY_OUT_VENDOR)/bin/unshare \
     vendor/xiaomi/light/proprietary/vendor/bin/uuidgen:$(TARGET_COPY_OUT_VENDOR)/bin/uuidgen \
+    vendor/xiaomi/light/proprietary/vendor/bin/vendor.xiaomi.hardware.otrpagent@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.xiaomi.hardware.otrpagent@2.0-service \
     vendor/xiaomi/light/proprietary/vendor/bin/volte_clientapi_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_clientapi_ua \
     vendor/xiaomi/light/proprietary/vendor/bin/volte_rcs_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_rcs_ua \
     vendor/xiaomi/light/proprietary/vendor/bin/vpud:$(TARGET_COPY_OUT_VENDOR)/bin/vpud \
@@ -239,8 +248,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
     vendor/xiaomi/light/proprietary/vendor/etc/aee-commit:$(TARGET_COPY_OUT_VENDOR)/etc/aee-commit \
     vendor/xiaomi/light/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
-    vendor/xiaomi/light/proprietary/vendor/etc/apdb/APDB_MT6853_S01__W2147:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6853_S01__W2147 \
-    vendor/xiaomi/light/proprietary/vendor/etc/apdb/APDB_MT6853_S01__W2147_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6853_S01__W2147_ENUM \
+    vendor/xiaomi/light/proprietary/vendor/etc/apdb/APDB_MT6853_S01__W2233:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6853_S01__W2233 \
+    vendor/xiaomi/light/proprietary/vendor/etc/apdb/APDB_MT6853_S01__W2233_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6853_S01__W2233_ENUM \
     vendor/xiaomi/light/proprietary/vendor/etc/armnn_app.config:$(TARGET_COPY_OUT_VENDOR)/etc/armnn_app.config \
     vendor/xiaomi/light/proprietary/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
     vendor/xiaomi/light/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
@@ -469,6 +478,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
     vendor/xiaomi/light/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/xiaomi/light/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
+    vendor/xiaomi/light/proprietary/vendor/etc/aurisys_config_rv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_rv.xml \
     vendor/xiaomi/light/proprietary/vendor/etc/aurisys_param/sixth_param.txt:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/sixth_param.txt \
     vendor/xiaomi/light/proprietary/vendor/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
     vendor/xiaomi/light/proprietary/vendor/etc/bluetooth_offload_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_offload_audio_policy_configuration.xml \
@@ -540,7 +550,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service-lazy.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.clearkey.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
-    vendor/xiaomi/light/proprietary/vendor/etc/init/android.hardware.dumpstate@1.1-service.xiaomi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.dumpstate@1.1-service.xiaomi.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
@@ -574,8 +583,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
+    vendor/xiaomi/light/proprietary/vendor/etc/init/init.charge_logger.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.charge_logger.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/init.connfem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connfem.rc \
-    vendor/xiaomi/light/proprietary/vendor/etc/init/init.factory.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.factory.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/init.fmradio_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fmradio_drv.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/init.fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsgo.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
@@ -591,6 +600,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/etc/init/lights-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-mtk-default.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/loghidlvendorservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loghidlvendorservice.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_monitor.rc \
+    vendor/xiaomi/light/proprietary/vendor/etc/init/mi_ic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ic.rc \
+    vendor/xiaomi/light/proprietary/vendor/etc/init/mi_ric.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ric.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/microtrust.bp_kmsetkey_ca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.bp_kmsetkey_ca.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/microtrust.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
@@ -618,8 +629,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc \
+    vendor/xiaomi/light/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc \
+    vendor/xiaomi/light/proprietary/vendor/etc/init/vendor.xiaomi.hardware.otrpagent@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.otrpagent@2.0-service.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/vendor.xiaomi.hardware.tidaservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.tidaservice@1.1-service.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc \
     vendor/xiaomi/light/proprietary/vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc \
@@ -636,7 +649,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootG2.crt \
     vendor/xiaomi/light/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootG3.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootG3.crt \
     vendor/xiaomi/light/proprietary/vendor/etc/md/cacerts/ikev2/Entrust.net_Certification_Authority_2048.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Entrust.net_Certification_Authority_2048.cer \
-    vendor/xiaomi/light/proprietary/vendor/etc/md/cacerts/ikev2/EntrustRootCertificationAuthorityG2_root.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/EntrustRootCertificationAuthorityG2_root.crt \
     vendor/xiaomi/light/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_PCA_G3_Root.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_PCA_G3_Root.der \
     vendor/xiaomi/light/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_Primary_CA.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_Primary_CA.der \
     vendor/xiaomi/light/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_Primary_CA_G2_ECC.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_Primary_CA_G2_ECC.der \
@@ -1001,6 +1013,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.1:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.1 \
     vendor/xiaomi/light/proprietary/vendor/etc/security/cacerts_supl/lab/2cbfcc3a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/2cbfcc3a.0 \
     vendor/xiaomi/light/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.0 \
+    vendor/xiaomi/light/proprietary/vendor/etc/security/cacerts_supl/lab/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/399e7759.0 \
     vendor/xiaomi/light/proprietary/vendor/etc/security/cacerts_supl/lab/586933d9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/586933d9.0 \
     vendor/xiaomi/light/proprietary/vendor/etc/security/cacerts_supl/lab/66272d0d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/66272d0d.0 \
     vendor/xiaomi/light/proprietary/vendor/etc/security/cacerts_supl/lab/6f1dbe5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/6f1dbe5e.0 \
@@ -1092,536 +1105,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/nl.use_pcm:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/nl.use_pcm \
     vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/nl.use_xor:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/nl.use_xor \
     vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/keyphrase.xml \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/128.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/64.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel0_BKD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel0_CMD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel2.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/n0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/n1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/n2 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/p1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/p1.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/pn1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/128.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/64.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel0_BKD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel0_CMD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel2.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/10 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/11 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/12 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/13 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/2 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/3 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/4 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/5 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/6 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/7 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/8 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/9 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/b \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/keyphrase.xml \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/128.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/64.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel0_BKD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel0_CMD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel2.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/n0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/n1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/n2 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/p1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/p1.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/pn1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/128.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/64.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel0_BKD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel0_CMD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel2.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/10 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/11 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/12 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/13 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/2 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/3 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/4 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/5 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/6 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/7 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/8 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/9 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/b \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/keyphrase.xml \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/128.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/64.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel0_BKD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel0_CMD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel2.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/n0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/n1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/n2 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/p1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/p1.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/pn1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/128.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/64.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel0_BKD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel0_CMD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel2.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/10 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/11 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/12 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/13 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/2 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/3 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/4 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/5 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/6 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/7 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/8 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/9 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/b \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/keyphrase.xml \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/128.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/64.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel0_BKD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel0_CMD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel2.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/n0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/n1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/n2 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/p1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/p1.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/pn1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/128.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/64.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel0_BKD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel0_CMD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel2.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/10 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/11 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/12 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/13 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/2 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/3 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/4 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/5 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/6 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/7 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/8 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/9 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/b \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/keyphrase.xml \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/128.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/64.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel0_BKD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel0_CMD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel2.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/n0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/n1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/n2 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/p1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/p1.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/pn1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/128.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/64.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel0_BKD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel0_CMD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel2.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/10 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/11 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/12 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/13 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/2 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/3 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/4 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/5 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/6 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/7 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/8 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/9 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/b \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/keyphrase.xml \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/128.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/64.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel0_BKD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel0_CMD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel2.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/n0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/n1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/n2 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/p1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/p1.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/pn1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/128.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/64.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel0_BKD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel0_CMD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel2.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/10 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/11 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/12 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/13 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/2 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/3 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/4 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/5 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/6 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/7 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/8 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/9 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/b \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/keyphrase.xml \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/128.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/64.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel0_BKD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel0_CMD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel2.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/n0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/n1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/n2 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/p1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/p1.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/pn1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/128.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/64.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel0_BKD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel0_CMD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel2.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/10 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/11 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/12 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/13 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/2 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/3 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/4 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/5 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/6 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/7 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/8 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/9 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/b \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/keyphrase.xml \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/128.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/64.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel0_BKD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel0_CMD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel2.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/n0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/n1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/n2 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/p1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/p1.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/pn1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/128.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/64.dat \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/README.txt \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/p0 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel0.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel0_BKD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel0_CMD.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel1.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel10.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel2.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel3.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel4.bin \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/1 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/10 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/11 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/12 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/13 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/2 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/3 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/4 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/5 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/6 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/7 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/8 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/9 \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/b \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/keyphrase.xml \
-    vendor/xiaomi/light/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/keyphrase.xml \
     vendor/xiaomi/light/proprietary/vendor/etc/wfd_source_capability.csv:$(TARGET_COPY_OUT_VENDOR)/etc/wfd_source_capability.csv \
     vendor/xiaomi/light/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/xiaomi/light/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
@@ -1667,8 +1150,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/firmware/gt9886_firmware_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6893v01.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_cfg_6781v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6781v01_1080x2280.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_cfg_6781v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6781v01_1080x2300.bin \
+    vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_cfg_6789v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6789v01.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_cfg_6833v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6833v01.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_cfg_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6853v01.bin \
+    vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_cfg_6855v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6855v01.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_cfg_6873v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6873v01.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_cfg_6877v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6877v01_1080x2280.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_cfg_6877v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6877v01_1080x2300.bin \
@@ -1682,8 +1167,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_cfg_6983v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6983v01.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_firmware_6781v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6781v01_1080x2280.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_firmware_6781v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6781v01_1080x2300.bin \
+    vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_firmware_6789v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6789v01.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_firmware_6833v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6833v01.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_firmware_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6853v01.bin \
+    vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_firmware_6855v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6855v01.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_firmware_6873v00.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6873v00.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_firmware_6877v01_1080x2280.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6877v01_1080x2280.bin \
     vendor/xiaomi/light/proprietary/vendor/firmware/gt9896s_firmware_6877v01_1080x2300.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6877v01_1080x2300.bin \
@@ -1772,13 +1259,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
-    vendor/xiaomi/light/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so \
+    vendor/xiaomi/light/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so \
+    vendor/xiaomi/light/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.misys@4.0-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/xiaomi/light/proprietary/vendor/lib/hw/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mali.so \
@@ -2561,7 +2049,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiselector.so \
-    vendor/xiaomi/light/proprietary/vendor/lib/libalacdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalacdec_mtk.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapmonitor_vendor.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw.so \
@@ -2597,6 +2084,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothem_mtk.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
+    vendor/xiaomi/light/proprietary/vendor/lib/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapctrl.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcares_naptr.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcarrierconfig.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
@@ -2686,6 +2174,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter_vendor.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libmtkspparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkspparser.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtksysutils.so \
+    vendor/xiaomi/light/proprietary/vendor/lib/libmvpu_config_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_config_data.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuroeara.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_hal_utils.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnir_neon_driver.so \
@@ -2703,6 +2192,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_prot.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqframework.so \
+    vendor/xiaomi/light/proprietary/vendor/lib/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqparamparser.so \
+    vendor/xiaomi/light/proprietary/vendor/lib/libpqpconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqpconfig.so \
     vendor/xiaomi/light/proprietary/vendor/lib/librcs_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_interface.so \
     vendor/xiaomi/light/proprietary/vendor/lib/librcs_volte_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_volte_core.so \
     vendor/xiaomi/light/proprietary/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \
@@ -2735,7 +2226,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib/libtranslator_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_utils.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
     vendor/xiaomi/light/proprietary/vendor/lib/liburee_meta_drmkeyinstall.so:$(TARGET_COPY_OUT_VENDOR)/lib/liburee_meta_drmkeyinstall.so \
-    vendor/xiaomi/light/proprietary/vendor/lib/libvc1dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvc1dec_sa.ca7.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_oal.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libvcodecdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv.so \
@@ -2743,6 +2233,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib/libviagpsrpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libviagpsrpc.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libvibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvibrator.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libvow_ap_test_aa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_aa.so \
+    vendor/xiaomi/light/proprietary/vendor/lib/libvow_ap_test_dd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_dd.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libvow_ap_test_ha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_ha.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libvow_ap_test_hh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_hh.so \
     vendor/xiaomi/light/proprietary/vendor/lib/libvow_ap_test_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_nn.so \
@@ -2790,6 +2281,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib/sc202cs_ofilm_depth_mipi_raw_13M_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/sc202cs_ofilm_depth_mipi_raw_13M_tuning.so \
     vendor/xiaomi/light/proprietary/vendor/lib/sc202cs_ofilm_depth_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/sc202cs_ofilm_depth_mipi_raw_india_tuning.so \
     vendor/xiaomi/light/proprietary/vendor/lib/sc202cs_ofilm_depth_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/sc202cs_ofilm_depth_mipi_raw_tuning.so \
+    vendor/xiaomi/light/proprietary/vendor/lib/sensors.touch.detect.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.touch.detect.so \
     vendor/xiaomi/light/proprietary/vendor/lib/shared-file-region-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/shared-file-region-aidl-cpp.so \
     vendor/xiaomi/light/proprietary/vendor/lib/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing_mtk.so \
     vendor/xiaomi/light/proprietary/vendor/lib/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdynproc.so \
@@ -2807,6 +2299,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mdmonitor@1.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.mediatek.hardware.mmagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mmagent@1.0.so \
+    vendor/xiaomi/light/proprietary/vendor/lib/vendor.mediatek.hardware.mmagent@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mmagent@1.1.so \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.1.so \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.2.so \
@@ -2826,6 +2319,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.11.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.11.so \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.12.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.12.so \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.13.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.13.so \
+    vendor/xiaomi/light/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.14.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.14.so \
+    vendor/xiaomi/light/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.15.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.15.so \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.2.so \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.3.so \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.4.so \
@@ -2842,6 +2337,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@1.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@2.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@3.0.so \
+    vendor/xiaomi/light/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@4.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.xiaomi.hardware.mlipay@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mlipay@1.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.xiaomi.hardware.mlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mlipay@1.1.so \
     vendor/xiaomi/light/proprietary/vendor/lib/vendor.xiaomi.hardware.mtdservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mtdservice@1.0.so \
@@ -2926,13 +2422,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
-    vendor/xiaomi/light/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so \
+    vendor/xiaomi/light/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so \
+    vendor/xiaomi/light/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@4.0-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/hw/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.mali.so \
@@ -3751,7 +3248,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib64/libaiawb_sun_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_sun_model.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiselector.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libalCFR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalCFR.so \
-    vendor/xiaomi/light/proprietary/vendor/lib64/libalacdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalacdec_mtk.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapmonitor_vendor.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw.so \
@@ -3862,6 +3358,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib64/libcameracustom.flashlight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.flashlight.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libcameracustom.lens.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.lens.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.so \
+    vendor/xiaomi/light/proprietary/vendor/lib64/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapctrl.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcares_naptr.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcarrierconfig.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libccci_util.so \
@@ -4044,7 +3541,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib64/libmtkcam_sysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_sysutils.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libmtkcam_tuning_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_tuning_utils.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libmtkcam_ulog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_ulog.so \
-    vendor/xiaomi/light/proprietary/vendor/lib64/libmtkcam_vsync_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_vsync_util.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libmtkconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkconfig.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libmtkconfigutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkconfigutils.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcutils.so \
@@ -4063,6 +3559,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib64/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtksysutils.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libmtktinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtktinyxml.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libmtkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkutils.so \
+    vendor/xiaomi/light/proprietary/vendor/lib64/libmvpu_config_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_config_data.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuroeara.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libneuron_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_adapter.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libneuron_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_platform.so \
@@ -4083,6 +3580,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib64/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_prot.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqframework.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqparamparser.so \
+    vendor/xiaomi/light/proprietary/vendor/lib64/libpqpconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqpconfig.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libratconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librgbwlightsensor.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
@@ -4127,10 +3625,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib64/libvibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvibrator.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libvideofilter_only.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideofilter_only.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libvow_ap_test_aa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_aa.so \
+    vendor/xiaomi/light/proprietary/vendor/lib64/libvow_ap_test_dd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_dd.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libvow_ap_test_ha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_ha.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libvow_ap_test_hh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_hh.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libvow_ap_test_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_nn.so \
-    vendor/xiaomi/light/proprietary/vendor/lib64/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu5.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libvsim.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvsim.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi.so \
@@ -4183,6 +3681,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib64/sc202cs_ofilm_depth_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sc202cs_ofilm_depth_mipi_raw_IdxMgr.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/sc202cs_ofilm_depth_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sc202cs_ofilm_depth_mipi_raw_india_tuning.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/sc202cs_ofilm_depth_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sc202cs_ofilm_depth_mipi_raw_tuning.so \
+    vendor/xiaomi/light/proprietary/vendor/lib64/sensors.touch.detect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.touch.detect.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/shared-file-region-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/shared-file-region-aidl-cpp.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing_mtk.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdynproc.so \
@@ -4203,6 +3702,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.ccap@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.ccap@1.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so \
+    vendor/xiaomi/light/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.isphal@1.1.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.security@1.0.so \
@@ -4244,6 +3744,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.11.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.11.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.12.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.12.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.13.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.13.so \
+    vendor/xiaomi/light/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.14.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.14.so \
+    vendor/xiaomi/light/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.15.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.15.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.2.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.3.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.4.so \
@@ -4265,11 +3767,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@1.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@2.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@3.0.so \
+    vendor/xiaomi/light/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@4.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mlipay@1.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mlipay@1.1.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so \
+    vendor/xiaomi/light/proprietary/vendor/lib64/vendor.xiaomi.hardware.otrpagent@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.otrpagent@2.0-impl.so \
+    vendor/xiaomi/light/proprietary/vendor/lib64/vendor.xiaomi.hardware.otrpagent@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.otrpagent@2.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so \
     vendor/xiaomi/light/proprietary/vendor/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so \
@@ -4281,6 +3786,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/light/proprietary/vendor/odm/etc/build_light_p.prop:$(TARGET_COPY_OUT_ODM)/odm/etc/build_light_p.prop \
     vendor/xiaomi/light/proprietary/vendor/odm/etc/build_thunder.prop:$(TARGET_COPY_OUT_ODM)/odm/etc/build_thunder.prop \
     vendor/xiaomi/light/proprietary/vendor/odm/etc/build_thunder_p.prop:$(TARGET_COPY_OUT_ODM)/odm/etc/build_thunder_p.prop \
+    vendor/xiaomi/light/proprietary/vendor/odm/etc/camera/camerabooster.json:$(TARGET_COPY_OUT_ODM)/odm/etc/camera/camerabooster.json \
     vendor/xiaomi/light/proprietary/vendor/odm/etc/permissions/sku_thunder/android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_thunder/android.hardware.nfc.hce.xml \
     vendor/xiaomi/light/proprietary/vendor/odm/etc/permissions/sku_thunder/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_thunder/android.hardware.nfc.hcef.xml \
     vendor/xiaomi/light/proprietary/vendor/odm/etc/permissions/sku_thunder/android.hardware.nfc.uicc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_thunder/android.hardware.nfc.uicc.xml \
@@ -4350,7 +3856,6 @@ PRODUCT_PACKAGES += \
     com.fingerprints.extension \
     android.hardware.boot@1.2 \
     android.hardware.cas@1.2-service-lazy \
-    android.hardware.dumpstate@1.1-service.xiaomi \
     android.hardware.health@2.1 \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
     android.hardware.usb@1.2-service-mediatekv2 \
@@ -4364,10 +3869,11 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.4-service.clearkey \
     manifest_android.hardware.drm@1.4-service.widevine \
     manifest_hwcomposer \
-    manifest_media_c2_V1_1_default \
+    manifest_media_c2_V1_2_default \
     manifest_vendor.xiaomi.hardware.mfidoca \
     manifest_vendor.xiaomi.hardware.mlipay \
     manifest_vendor.xiaomi.hardware.mtdservice \
+    manifest_vendor.xiaomi.hardware.otrpagent@2.0 \
     manifest_vendor.xiaomi.hardware.tidaservice \
     manifest_vendor.xiaomi.hardware.vsimapp \
     power-default \
@@ -4375,4 +3881,5 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys@1.0 \
     vendor.xiaomi.hardware.misys@2.0 \
     vendor.xiaomi.hardware.misys@3.0 \
+    vendor.xiaomi.hardware.misys@4.0 \
     vibrator-mtk-default

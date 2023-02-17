@@ -63,7 +63,6 @@
         <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="2"></data>
         <data cmd="PERF_RES_POWER_HINT_INSTALL_MAX_DURATION" param1="90000"></data>
     </scenario>
-    <!--L19 code for HQ-179004 by yucongcong at 2022.02.21 begin-->
     <scenario powerhint="MTKPOWER_HINT_APP_TOUCH">
         <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_NOTIFY_FBC" param1="1"></data>
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="3000000"></data>
@@ -73,7 +72,6 @@
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="100"></data>
         <data cmd="PERF_RES_POWER_HINT_HOLD_TIME" param1="80"></data>
     </scenario>
-    <!--L19 code for HQ-179004 by yucongcong at 2022.02.21 end-->
     <scenario powerhint="MTKPOWER_HINT_GALLERY_BOOST">
         <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
     </scenario>
@@ -93,6 +91,11 @@
     <scenario powerhint="MTKPOWER_HINT_AUDIO_DISABLE_WIFI_POWER_SAVE">
         <data cmd="PERF_RES_NET_WIFI_CAM" param1="1"></data>
         <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="1"></data>
+    </scenario>
+    <scenario powerhint="MTKPOWER_HINT_UX_MOVE_SCROLLING">
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="600000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2400000"></data>
+        <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="25"></data>
     </scenario>
     <scenario powerhint="MTKPOWER_HINT_UX_SCROLLING">
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="1075000"></data>
